@@ -13,7 +13,7 @@ with midelSection:
     left_col,midel_col,right_col=stm.columns(3)
 
     with left_col:
-        stm.title("A")
+        stm.title("Az")
         stm.write("ABC")
     with midel_col:
         stm.title("B")
