@@ -29,13 +29,13 @@ with midelSection:
         container=stm.container()
         container.write("This is inside Container")
         txt = stm.text_area(
-    "Text to analyze",
-    "It was the best of times, it was the worst of times, it was the age of "
-    "wisdom, it was the age of foolishness, it was the epoch of belief, it "
-    "was the epoch of incredulity, it was the season of Light, it was the "
-    "season of Darkness, it was the spring of hope, it was the winter of "
-    "despair, (...)",
-    )
+        "Text to analyze",
+        "It was the best of times, it was the worst of times, it was the age of "
+        "wisdom, it was the age of foolishness, it was the epoch of belief, it "
+        "was the epoch of incredulity, it was the season of Light, it was the "
+        "season of Darkness, it was the spring of hope, it was the winter of "
+        "despair, (...)",
+        )
      stm.write(f"You Wrote {len(txt) characters")
         
         
