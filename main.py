@@ -7,6 +7,7 @@ leftNav=stm.sidebar
 
 with headerSection:
     stm.title("WebApp")
+    stm.markdown("-------------")
     stm.markdown("***This is a test Streamlit Web App***")
 
 with midelSection:
