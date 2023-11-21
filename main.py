@@ -20,8 +20,9 @@ with midelSection:
         stm.write("D E F")
 
     with right_col:
-        stm.container("This is inside container")
         stm.title("D")
+        container=stm.container()
+        container.write("This is inside Container")
         stm.write("G H I")
         
 with leftNav:
