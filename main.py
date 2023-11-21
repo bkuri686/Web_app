@@ -14,7 +14,10 @@ with midelSection:
 
     with left_col:
         stm.title("Az")
+        container=stm.container()
+        container.write("This is Out side of container")
         stm.write("ABC")
+        
     with midel_col:
         stm.title("B")
         stm.write("D E F")
