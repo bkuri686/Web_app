@@ -9,6 +9,7 @@ with headerSection:
     stm.title("WebApp")
     stm.markdown("-------------")
     stm.markdown("***This is a test Streamlit Web App***")
+    stm.markdown("____________________________")
 
 with midelSection:
     left_col,midel_col,right_col=stm.columns(3)
