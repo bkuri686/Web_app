@@ -20,13 +20,10 @@ with midelSection:
         stm.write("D E F")
 
     with right_col:
+        stm.container("This is inside container")
         stm.title("D")
         stm.write("G H I")
         
-
-
-
-
 with leftNav:
     stm.title("Main Menu")
     stm.button("Home",on_click=lambda:stm.success("Home"))
